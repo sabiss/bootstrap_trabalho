@@ -33,6 +33,10 @@ nav a{
     color: white;
     text-decoration: none;
 }
+nav a:hover{
+    font-weight: bold;
+    color: white;
+}
 #home{
     height: 70vh;
     padding: 20px 20px 0px 20px;
@@ -102,6 +106,7 @@ nav a{
 .criadores-title{
     font-size: 40px;
     font-weight: bold;
+    padding: 20px;
 }
 .criadores-title h1{
     text-align: center;
