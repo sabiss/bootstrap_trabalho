@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Code', monospace;
+}
+header{
+    background-color: #6b3395 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    color: white;
+}
+header h1{
+    font-size: 40px;
+}
+.header-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+nav{
+    padding: 30px 10px;
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#home{
+    height: 70vh;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+}
+.title, .boostrap-logo{
+    width: 50%;
+    height: 100%;
+}
+.title, .boostrap-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.boostrap-logo{
+    padding: 20px;
+}
+.boostrap-logo img{
+    width: 950px;
+}
+#sobre{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+}
+.sobre-img, .description{
+    width: 49%;
+}
+.sobre-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-img img{
+    width: 700px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    font-size: 40px;
+}
+.column{
+    width: 0.5%;
+    height: 600px;
+    background-color: #6b3395;
+}
+#criadores{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.carrosel, .criadores-title{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.criadores-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.criadores-title h1{
+    text-align: center;
+    border-top: 5px solid #6b3395;
+    border-bottom: 5px solid #6b3395;
+    padding: 50px 0px;
+}
+
+.c-item{
+    height: 600px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <header>
+        <div class="header-container container">  
+            <h1>Boostrap</h1>
+            <nav class="navbar fixed-center">
+                <a href="#home"><p>Home</p></a>
+                <a href="#sobre"><p>Sobre</p></a>
+                <a href="#criadores"><p>Criadores</p></a>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="title text-justify">
+            <h1>Bootstrap:<br>O mais famoso dos frameworks css</h1>
+        </div>
+        <div class="boostrap-logo">
+            <img class="img-fluid" src="img/Bootstrap-logo.png">
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="sobre-img"><img class="img-fluid" src="img/icons-hero.png"></div>
+        <div class="column"></div>
+        <div class="description container">
+            <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.</p>
+        </div>
+    </section>
+
+    <section id="criadores">
+        <div class="carrosel container">
+            <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active c-item">
+                    <img class="d-block w-100 c-img img-fluid" src="img/sabrina_no_mato.jpeg" alt="0">
+                    <div class="carousel-caption d-md-block">
+                        <h2>Sabrina</h2>
+                        <p>Programadora front-end</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img class="d-block w-100 c-img img-fluid" src="img/iran.jpeg" alt="1">
+                    <div class="carousel-caption d-md-block">
+                        <h2>Iran</h2>
+                        <p>Técnico em Manutenção</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item img-fluid">
+                    <img class="d-block w-100 c-img" src="img/luscas.jpeg" alt="2">
+                    <div class="carousel-caption d-md-block">
+                        <h2>Lucas</h2>
+                        <p>Jovem Aprendiz</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+        </div>
+        <div class="criadores-title">
+            <h1>Alunos responsáveis pela criação</h1>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</html>
